@@ -1,10 +1,10 @@
 # Tic-Tac-Toe
 This is a Tic-tac-toe game built in javacript,html and Css .
-Two Players can Play This.
-There can be 3 possible Results in this.
-1)Player X won
-2)Player 0 won
-3)Match Tie
+Two Players can Play This.__
+There can be 3 possible Results in this.__
+1)Player X won__
+2)Player 0 won__
+3)Match Tie__
 
 ## Demo
 ![](tic.gif)
