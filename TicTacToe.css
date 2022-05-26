@@ -1,0 +1,50 @@
+h1 {
+    color: rgb(208, 0, 255);
+    font-size: 30px;
+    font-family: Aclonica;
+}
+
+/* 3*3 Grid */
+input{
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+}
+#but {
+    box-sizing: border-box;
+    width: 85px;
+    height: 30px;
+    border: 1px solidrgb(128, 30, 255);
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    background-color: rgb(128, 30, 255);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+#print {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    color: rgb(128, 30, 255);
+    font-size: 20px;
+}
+#main {
+    text-align: center;
+}
+
+/* Game Instruction Text */
+#ins {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+         
+    color: rgb(128, 30, 255);
+    font-size: 17px;
+}

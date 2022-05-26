@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+   
+<head>
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        type="text/css" href="TicTacToe.css">
+        <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+</head>
+<body>
+    <div id="main">
+        <h1>TIC TAC TOE</h1>
+   
+        <!-- Game Instructions -->
+        <p id="ins">First Player starts as 
+            <b>Player X</b><br>And<br>Second 
+            Player as <b>Player 0</b>
+        </p>
+        <br><br>
+        <!-- 3*3 grid of Boxes -->
+        <div id="grids">
+        <input type="text" id="1"  readonly>
+   
+        <input type="text" id="2"  readonly>
+   
+        <input type="text" id="3"  readonly>
+        <br><br>
+   
+        <input type="text" id="4"  readonly>
+               
+        <input type="text" id="5"  readonly>
+   
+        <input type="text" id="6"  readonly>
+        <br><br>
+        <input type="text" id="7"  readonly>
+   
+        <input type="text" id="8"  readonly>
+   
+        <input type="text" id="9"  readonly>
+        </div>
+            <!-- Grid end here  -->
+        <br><br><br>
+        <!-- Button to reset game -->
+        <button id="but" onclick="reset()">
+            RESET
+        </button>
+   
+        <br><br>
+        <!-- Space to show player turn -->
+        <p id="print"></p>
+    </div>
+    <script src="TicTacToe.js"></script>
+</body>
+   
+</html>
+ 
+   
